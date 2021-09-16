@@ -22,14 +22,19 @@
 	</h1>
 		
 	<h1 id="sensor">
-		led on 
-	<button id = 'LED1On' type="button" onclick="LED1_On();">
+		
 	</h1>
 	<h1 >
 		JAIME JÁCOME-APLICACIONES IoT
 	</h1>
 	
 	<button id = 'LED1On' type="button" onclick="LED1_On();">
+
+		LED1 ON!
+	
+	</button>
+	
+	<button id = 'LED1On' type="button" onclick="escribirledon();">
 
 		LED1 ON!
 	
@@ -53,6 +58,16 @@
 		alert("led off");
 		console.log("led off");
 	}
+		
+	function escribirledon() {
+	document.getElementyById("sensor").innerHTML = "LED ON"
+	  
+	}
+	function escribirledoff() {
+	document.getElementyById("sensor").innerHTML = "LED OFF"
+	  
+	}	
+	
 	
 	</script>
 </body>
