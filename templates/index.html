@@ -28,17 +28,13 @@
 		JAIME JÁCOME-APLICACIONES IoT
 	</h1>
 	
-	<button id = 'LED1On' type="button" onclick="LED1_On();">
+	<button id = 'LED1On' type="button" onclick="escribirledon()">
 
-		LED1 ON!
+		
 	
 	</button>
 	
-	<button id = 'LED1On' type="button" onclick="escribirledon();">
-
-		LED1 ON!
 	
-	</button>
 
 	<button id = 'LED1Off' type="button" onclick="LED1_Off();">
 		LED1_OFF!
@@ -49,7 +45,7 @@
 
 	<script>
 	
-	function LED1_On() {
+	/*function LED1_On() {
 		alert("led on");
 		console.log("led on");
 	  
@@ -58,7 +54,7 @@
 		alert("led off");
 		console.log("led off");
 	}
-		
+	*/	
 	function escribirledon() {
 	document.getElementyById("sensor").innerHTML = "LED ON"
 	  
